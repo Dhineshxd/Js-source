@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+          nav{
+            background-color: black;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+          }
+          
+      
+          h2,li{
+            color: brown;
+            font-size: 25px;
+
+          }
+          ul{
+            display: flex;
+            gap: 40px;
+            list-style-type: none;
+
+          }
+          main{
+            height: 300px;
+            background-color: bisque;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          }
+          main > .card{
+            height: 200px;
+            width: 300px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 1px 3px 5px black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .circle{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+          }
+
+    </style>
+</head>
+<body>
+    
+     <nav>
+        <h2 id="logo">DemoModel</h2>
+      <ul>
+          <li>Home</li>
+          <li id="list2">About</li>
+          <li>Content</li>
+
+          <button>Click me</button>
+        </ul>
+     </nav>
+    
+     <main>
+        <div class="card ">
+            <h3>card1</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card ">
+            <h3>card1</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card ">
+            <h3>card1</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+          <div class="card ">
+            <h3></h3>
+            <p></p>
+        </div>
+     </main>
+
+     <article>
+       
+
+
+
+     </article>
+     
+    <script src="./dom.js"></script>
+</body>
+</html>
