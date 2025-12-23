@@ -18,7 +18,7 @@ let p = new Promise((resolve,reject)=>{
 
     //  reject("hi")
 
-    let task = false;
+    let task = true;
     if(task)
         {
         resolve("we will do the task")
